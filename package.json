@@ -2,7 +2,7 @@
     "name": "stereo-snippets",
     "displayName": "Stereo Snippets",
     "description": "A bunch of snippets we use at Stereo to make life easier.",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "publisher": "Stereo",
     "repository": "https://github.com/stereoweb/stereo-snippets",
     "icon": "images/logo.png",
@@ -17,6 +17,10 @@
             {
                 "language": "javascript",
                 "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/snippets-scss.code-snippets"
             }
         ]
     }

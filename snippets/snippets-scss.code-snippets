@@ -1,0 +1,26 @@
+{
+    "scale": {
+        "prefix": "scale",
+        "body": "transform: scale(${1:1},1);"
+    },
+    "mq": {
+        "prefix": "media-query",
+        "body": "@include media(\"${1:<md}\") {\n    $2\n};"
+    },
+    "transi": {
+        "prefix": "anim",
+        "body": "transition:${1:transform} $speed $easing;"
+    },
+    "transf": {
+        "prefix": "transform",
+        "body": "transform: translate($1);"
+    },
+    "inc": {
+        "prefix": "include",
+        "body": "@include $1();"
+    },
+    "forscss": {
+        "prefix": "forscss",
+        "body": "@for $i from 1 through ${1:15} {\n  .c-nav-li:nth-child($i){\n    transition-delay: ${2:0.15s} + (${3:0.075s} * $i);\n  }\n}"
+    }
+}
