@@ -4,6 +4,8 @@
     "description": "A bunch of snippets we use at Stereo to make life easier.",
     "version": "0.0.1",
     "publisher": "Stereo",
+    "repository": "https://github.com/stereoweb/stereo-snippets",
+    "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.45.0"
     },
