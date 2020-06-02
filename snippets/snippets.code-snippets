@@ -1,0 +1,30 @@
+{
+    "Class Add": {
+        "prefix": "classAdd",
+        "body": [
+            "classAdd(${1:element}, '${2:class}')"
+        ],
+        "description": "Add a css class to an element"
+    },
+    "Class Remove": {
+        "prefix": "classRemove",
+        "body": [
+            "classRemove(${1:element}, '${2:class}')"
+        ],
+        "description": "Remove a css class from an element"
+    },
+    "Event Add": {
+        "prefix": "eventAdd",
+        "body": [
+            "eventAdd(${1:element}, '${2:event}', ${3:callback})"
+        ],
+        "description": "Add an event to an element"
+    },
+    "Event Remove": {
+        "prefix": "eventRemove",
+        "body": [
+            "eventAdd(${1:element}, '${2:event}')"
+        ],
+        "description": "Remove an event from an element"
+    },
+}

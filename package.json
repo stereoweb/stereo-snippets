@@ -1,0 +1,21 @@
+{
+    "name": "stereo-snippets",
+    "displayName": "Stereo Snippets",
+    "description": "A bunch of snippets we use at Stereo to make life easier.",
+    "version": "0.0.1",
+    "publisher": "Stereo",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
